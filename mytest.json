@@ -1,0 +1,20 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://sebuilder.github.io/se-builder/"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "As simple as it gets"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
